@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "Webcam displayer";
+}
+<head>
+   @section Scripts
+{
+    <script src="@Url.Content("~/Scripts/webcamStarter.js")"></script>
+}
+</head>
+<h2>Webcam</h2>
+<div class="row">
+    @*The appropriate width and height should be 640 and 480 respectively
+        canvas size on js file should be the same with cshtml file to avoid croping*@
+    <div class="col-md-6">
+        <video id="video" width="500" height="330" autoplay></video>       
+    </div>
+    <div class="col-md-6">
+        <canvas id="canvas" width="500" height="330"></canvas>         
+    </div>    
+</div>
+
+<div class="row">
+   
+    <div class="col-md-2">
+         <button id="webcam">Start Webcam</button>
+    </div>
+    
+    <div class="col-md-2">
+        <button id="stop">Stop Webcam</button>
+    </div>
+
+    
+    <div class="col-md-2">
+        <button id="capture">Capture Photo</button>       
+    </div>
+
+    @*Reloads the webcam page*@
+
+    <div class="col-md-6">
+        @using (Html.BeginForm("ReloadWebcam", "Webcam"))
+        {
+            <input id="buttonWebcam" type="submit" name="reload" value="Reload" />
+        }
+    </div>
+
+</div>

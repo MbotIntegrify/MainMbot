@@ -1,0 +1,15 @@
+C:\Users\Ahed\Source\Repos\WinForm_Webcam\WebCam_Test\bin\Debug\WebCam_Test.exe.config
+C:\Users\Ahed\Source\Repos\WinForm_Webcam\WebCam_Test\bin\Debug\WebCam_Test.exe
+C:\Users\Ahed\Source\Repos\WinForm_Webcam\WebCam_Test\bin\Debug\WebCam_Test.pdb
+C:\Users\Ahed\Source\Repos\WinForm_Webcam\WebCam_Test\bin\Debug\AForge.dll
+C:\Users\Ahed\Source\Repos\WinForm_Webcam\WebCam_Test\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Ahed\Source\Repos\WinForm_Webcam\WebCam_Test\bin\Debug\AForge.Video.dll
+C:\Users\Ahed\Source\Repos\WinForm_Webcam\WebCam_Test\bin\Debug\AForge.xml
+C:\Users\Ahed\Source\Repos\WinForm_Webcam\WebCam_Test\bin\Debug\AForge.Video.xml
+C:\Users\Ahed\Source\Repos\WinForm_Webcam\WebCam_Test\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Ahed\Source\Repos\WinForm_Webcam\WebCam_Test\obj\Debug\WebCam_Test.csprojResolveAssemblyReference.cache
+C:\Users\Ahed\Source\Repos\WinForm_Webcam\WebCam_Test\obj\Debug\WebCam_Test.Form1.resources
+C:\Users\Ahed\Source\Repos\WinForm_Webcam\WebCam_Test\obj\Debug\WebCam_Test.Properties.Resources.resources
+C:\Users\Ahed\Source\Repos\WinForm_Webcam\WebCam_Test\obj\Debug\WebCam_Test.csproj.GenerateResource.Cache
+C:\Users\Ahed\Source\Repos\WinForm_Webcam\WebCam_Test\obj\Debug\WebCam_Test.exe
+C:\Users\Ahed\Source\Repos\WinForm_Webcam\WebCam_Test\obj\Debug\WebCam_Test.pdb
