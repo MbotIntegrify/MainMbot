@@ -13,3 +13,6 @@ C:\Users\Ahed\Source\Repos\WinForm_Webcam\WebCam_Test\obj\Debug\WebCam_Test.Prop
 C:\Users\Ahed\Source\Repos\WinForm_Webcam\WebCam_Test\obj\Debug\WebCam_Test.csproj.GenerateResource.Cache
 C:\Users\Ahed\Source\Repos\WinForm_Webcam\WebCam_Test\obj\Debug\WebCam_Test.exe
 C:\Users\Ahed\Source\Repos\WinForm_Webcam\WebCam_Test\obj\Debug\WebCam_Test.pdb
+C:\Users\Ahed\Source\Repos\MainMbot\WinForm_Webcam\WebCam_Test\bin\Debug\WebCam_Test.exe.config
+C:\Users\Ahed\Source\Repos\MainMbot\WinForm_Webcam\WebCam_Test\obj\Debug\WebCam_Test.exe
+C:\Users\Ahed\Source\Repos\MainMbot\WinForm_Webcam\WebCam_Test\obj\Debug\WebCam_Test.pdb
