@@ -3,36 +3,38 @@
     ViewBag.Title = "Webcam displayer";
 }
 <head>
-   @section Scripts
+    @section Scripts
 {
-    <script src="@Url.Content("~/Scripts/webcamStarter.js")"></script>
-}
+        <script src="@Url.Content("~/Scripts/webcamStarter.js")"></script>
+        <script src="@Url.Content("~/Scripts/jquery-1.10.2.min.js")"></script>
+    }
 </head>
 <h2>Webcam</h2>
+<h1>@ViewBag.KeyHolders</h1>
 <div class="row">
     @*The appropriate width and height should be 640 and 480 respectively
         canvas size on js file should be the same with cshtml file to avoid croping*@
     <div class="col-md-6">
-        <video id="video" width="500" height="330" autoplay></video>       
+        <video id="video" width="500" height="330" autoplay></video>
     </div>
     <div class="col-md-6">
-        <canvas id="canvas" width="500" height="330"></canvas>         
-    </div>    
+        <canvas id="canvas" width="500" height="330"></canvas>
+    </div>
 </div>
 
 <div class="row">
-   
+
     <div class="col-md-2">
-         <button id="webcam">Start Webcam</button>
+        <button id="webcam">Start Webcam</button>
     </div>
-    
+
     <div class="col-md-2">
         <button id="stop">Stop Webcam</button>
     </div>
 
-    
+
     <div class="col-md-2">
-        <button id="capture">Capture Photo</button>       
+        <button id="capture">Capture Photo</button>
     </div>
 
     @*Reloads the webcam page*@
@@ -41,7 +43,20 @@
         @using (Html.BeginForm("ReloadWebcam", "Webcam"))
         {
             <input id="buttonWebcam" type="submit" name="reload" value="Reload" />
+
         }
     </div>
 
+    <video width="320" height="240" controls>
+        <source src="http://192.168.1.171:8080" type="video/mp4">
+
+        Your browser does not support the video tag.
+    </video>
+
 </div>
+
+<p id="demo"></p>
+
+<input type="button" value="Click here" id="clickhere" onclick="submitForm()" />
+
+<h1>@ViewBag.KeyHolders</h1>
